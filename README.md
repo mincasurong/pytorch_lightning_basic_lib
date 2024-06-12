@@ -20,7 +20,7 @@ pytorch_lightning_basic_lib/
 
 ### Data Module
 
-1. **TabularDataModule**: A PyTorch Lightning DataModule for handling tabular data.
+1. **TabularDataModule**: A PyTorch Lightning DataModule for handling tabular data. Select features by analyzing correlation between inputs and output, and colinearity between each inputs
 
 ### Model
 
