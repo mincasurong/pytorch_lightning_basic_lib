@@ -73,3 +73,16 @@ trained_model = train_model(data_module, model)
 
 # Evaluate the model
 evaluate_model(trained_model, data_module)
+```
+
+### Reference
+For more details on the implementation, please refer to the PyTorch Lightning documentation: [PyTorch Lightning Docs.](https://pytorch-lightning.readthedocs.io/en/stable/)
+
+### Contributing
+Contributions are welcome! Please fork the repository and submit a pull request for any improvements or additions.
+
+### Acknowledgements
+Special thanks to the PyTorch and PyTorch Lightning communities for their continuous support and resources.
+
+### License
+This project is licensed under the MIT License 
