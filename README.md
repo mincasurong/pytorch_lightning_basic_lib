@@ -20,19 +20,21 @@ pytorch_lightning_basic_lib/
 
 ### Data Module
 
-1. **TabularDataModule**: A PyTorch Lightning DataModule for handling tabular data. Select features by analyzing correlation between inputs and output, and colinearity between each inputs
+- **TabularDataModule**
+    : A PyTorch Lightning DataModule for handling tabular data. 
+    : Select features by analyzing correlation between inputs and output, and colinearity between each inputs.
 
 ### Model
 
-1. **RegressionModel**: A simple regression model defined using PyTorch.
+- **RegressionModel**: A simple regression model defined using PyTorch.
 
 ### Training
 
-1. **train_model**: Function to train the regression model using PyTorch Lightning's Trainer.
+- **train_model**: Function to train the regression model using PyTorch Lightning's Trainer.
 
 ### Evaluation
 
-1. **evaluate_model**: Function to evaluate the trained model's performance.
+- **evaluate_model**: Function to evaluate the trained model's performance.
 
 
 ## Getting Started
