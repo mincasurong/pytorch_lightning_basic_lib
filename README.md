@@ -9,23 +9,19 @@ This repository provides a basic framework for deep learning tasks using PyTorch
 - **[train.py](pytorch_lightning_basic_lib/train.py)**: Provides the training loop for the model.
 - **[evaluate.py](pytorch_lightning_basic_lib/evaluate.py)**: Includes functions for model evaluation.
 
-## Modules
-
-### Data Module
-
-1. **TabularDataModule**: A PyTorch Lightning DataModule for handling tabular data.
-
-### Model
-
-1. **RegressionModel**: A simple regression model defined using PyTorch.
-
-### Training
-
-1. **train_model**: Function to train the regression model using PyTorch Lightning's Trainer.
-
-### Evaluation
-
-1. **evaluate_model**: Function to evaluate the trained model's performance.
+## Project structures
+```
+pytorch_lightning_basic_lib/
+├── pytorch_lightning_basic_lib/
+│   ├── __init__.py
+│   ├── data_module.py
+│   ├── model.py
+│   ├── train.py
+│   └── evaluate.py
+├── setup.py
+├── README.md
+└── requirements.txt
+```
 
 ## Getting Started
 
