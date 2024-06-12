@@ -1,0 +1,8 @@
+pandas
+matplotlib
+seaborn
+torch
+torchmetrics
+sklearn
+pytorch-lightning
+statsmodels
