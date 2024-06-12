@@ -4,7 +4,7 @@ This repository provides a basic framework for deep learning tasks using PyTorch
 
 ## Contents
 
-- **[data_module.py](pytorch_lightning_basic_lib/data_module.py)**: Handles data preparation and loading.
+- **[data_module.py]([pytorch_lightning_basic_lib/data_module.py](https://github.com/mincasurong/pytorch_lightning_basic_lib/blob/main/pytorch_deep_learning_lib/data_module.py))**: Handles data preparation and loading.
 - **[model.py](pytorch_lightning_basic_lib/model.py)**: Contains the definition of the regression model.
 - **[train.py](pytorch_lightning_basic_lib/train.py)**: Provides the training loop for the model.
 - **[evaluate.py](pytorch_lightning_basic_lib/evaluate.py)**: Includes functions for model evaluation.
