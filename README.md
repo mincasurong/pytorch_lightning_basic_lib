@@ -21,8 +21,8 @@ pytorch_lightning_basic_lib/
 ### Data Module
 
 - **TabularDataModule**
-    * A PyTorch Lightning DataModule for handling tabular data. 
-    * Select features by analyzing correlation between inputs and output, and colinearity between each inputs.
+    * setup(): Handling tabular data. Scale and split dataset for train, val, and test.
+    * feature_selection(): Select features by analyzing correlation between inputs and output, and colinearity between each input.
 
 ### Model
 
